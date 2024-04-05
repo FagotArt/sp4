@@ -2,10 +2,10 @@ version: '3.7'
 
 services:
   app:
-    image: php:7.4-apache
+    build: .
     container_name: phpS4
     restart: always
     volumes:
-      - ./pages:/var/www/html
+      - ./pages:/var/www/html # Это позволит вам редактировать файлы локально
     ports:
       - "8281:80"
