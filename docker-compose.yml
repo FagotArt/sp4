@@ -9,3 +9,5 @@ services:
       - ./pages:/var/www/html # Это позволит вам редактировать файлы локально
     ports:
       - "8281:80"
+    environment:
+      - SSL_MODE=off

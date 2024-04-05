@@ -5,3 +5,5 @@ services:
     build: .
     container_name: phpS4
     restart: always
+    environment:
+      - SSL_MODE=off
