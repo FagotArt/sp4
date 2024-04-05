@@ -1,5 +1,5 @@
 # Используем официальный образ PHP с Apache
-FROM php:8.2-apache
+FROM php:8.2.12-apache
 
 # Устанавливаем рабочую директорию в контейнере
 WORKDIR /var/www/html
