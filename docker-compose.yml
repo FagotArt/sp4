@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app:
+    image: php:7.4-apache
+    container_name: phpS4
+    restart: always
+    volumes:
+      - ./pages:/var/www/html
+    ports:
+      - "8281:80"
