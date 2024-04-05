@@ -1,2 +1,2 @@
 <?php
-echo 'Page1.php';
+echo 'Page22.php';
