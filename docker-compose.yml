@@ -9,6 +9,6 @@ services:
     volumes:
       - .:/var/www/html
     ports:
-      - "8281:80"
+      - "8282:80"
     environment:
       - SSL_MODE=off

@@ -18,7 +18,7 @@ docker-compose exec app /bin/bash
 один для локально с пробросом портов
 [docker-compose.yml](docker-compose.yml)
 
-другой для coolify без проброса портов, инчае не будет работать
+другой для coolify без проброса портов, инчае не будет работать, не забыть назначить нужный файл на сервере
 [docker-compose-coolify.yml](docker-compose-coolify.yml)
 
 
